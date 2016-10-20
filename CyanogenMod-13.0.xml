@@ -59,7 +59,7 @@
 
 <project path="kernel/huawei/msm8916" name="android_kernel_huawei_msm8916" remote="Hacker432-Y550" revision="cm-13.0"/>
 <project path="device/huawei/y550" name="android_device_huawei_y550" remote="Hacker432-Y550" revision="cm-13.0" />
-<project path="device/huawei/msm8916_32" name="android_device_huawei_msm8916-common" remote="Hacker432-Y550" revision="cm-13.0" />
+<project path="device/huawei/msm8916-common" name="android_device_huawei_msm8916-common" remote="Hacker432-Y550" revision="cm-13.0" />
 <project path="device/qcom/common" name="android_device_qcom_common" remote="CyanogenMod" revision="cm-13.0" />
 <project path="vendor/huawei/msm8916_32" name="android_vendor_huawei_msm8916_32" remote="Hacker432-Y550" revision="cm-13.0" />
 <project path="external/stlport" name="android_external_stlport" remote="CyanogenMod" revision="cm-13.0" />

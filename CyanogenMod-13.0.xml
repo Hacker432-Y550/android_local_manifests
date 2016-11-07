@@ -51,7 +51,6 @@
  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" />
  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
- <remove-project name="platform/prebuilts/qemu-kernel" />
 <!-- Y550 needed repositories -->
  
 <remote name="Hacker432-Y550" fetch="https://github.com/Hacker432-Y550" />

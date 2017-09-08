@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Remove unnecessary Lineage stuff -->
+  <remove-project name="device/generic/arm64"/>
+  <remove-project name="device/generic/armv7-a-neon"/>
+  <remove-project name="device/generic/common"/>
+  <remove-project name="device/generic/goldfish"/>
+  <remove-project name="device/generic/goldfish-opengl"/>
+  <remove-project name="device/generic/mini-emulator-arm64"/>
+  <remove-project name="device/generic/mini-emulator-armv7-a-neon"/>
+  <remove-project name="device/generic/mini-emulator-x86"/>
+  <remove-project name="device/generic/mini-emulator-x86_64"/>
+  <remove-project name="device/generic/qemu"/>
+  <remove-project name="device/generic/x86"/>
+  <remove-project name="device/generic/x86_64"/>
+  <remove-project name="device/google/atv"/>
+  <remove-project name="device/google/contexthub"/>
+  <remove-project name="device/sample"/>
+  <remove-project name="platform/hardware/broadcom/libbt"/>
+  <remove-project name="platform/hardware/broadcom/wlan"/>
+  <remove-project name="platform/hardware/google/apf"/>
+  <remove-project name="platform/hardware/intel/audio_media"/>
+  <remove-project name="platform/hardware/intel/bootstub"/>
+  <remove-project name="platform/hardware/intel/common/bd_prov"/>
+  <remove-project name="platform/hardware/intel/common/libmix"/>
+  <remove-project name="platform/hardware/intel/common/libstagefrighthw"/>
+  <remove-project name="platform/hardware/intel/common/libva"/>
+  <remove-project name="platform/hardware/intel/common/libwsbm"/>
+  <remove-project name="platform/hardware/intel/common/omx-components"/>
+  <remove-project name="platform/hardware/intel/common/utils"/>
+  <remove-project name="platform/hardware/intel/common/wrs_omxil_core"/>
+  <remove-project name="platform/hardware/intel/img/hwcomposer"/>
+  <remove-project name="platform/hardware/intel/img/psb_headers"/>
+  <remove-project name="platform/hardware/intel/img/psb_video"/>
+  <remove-project name="platform/hardware/marvell/bt"/>
+  <remove-project name="platform/prebuilts/clang/host/darwin-x86"/>
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9"/>
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8"/>
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9"/>
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1"/>
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9"/>
+  <remove-project name="platform/prebuilts/gdb/darwin-x86"/>
+  <remove-project name="platform/prebuilts/go/darwin-x86"/>
+  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5"/>
+
+  <!-- Gemini needed repositories -->
+  <remote name="Hacker432" fetch="https://github.com/Hacker432"/>
+  <remote name="LineageOS" fetch="https://github.com/LineageOS"/>
+  <project path="kernel/xiaomi/msm8996" name="android_kernel_xiaomi_msm8996" remote="Hacker432" revision="lineage-15.0"/>
+  <project path="device/xiaomi/gemini" name="android_device_xiaomi_gemini" remote="Hacker432" revision="lineage-15.0" />
+  <project path="vendor/xiaomi/gemini" name="android_vendor_xiaomi_gemini" remote="Hacker432" revision="lineage-15.0" />
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="LineageOS" revision="lineage-15.0"/>
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-15.0"/>
+  <project path="vendor/nxp-nfc/opensource/frameworks" name="android_vendor_nxp-nfc_opensource_frameworks" remote="LineageOS" revision="cm-14.1"/>
+  <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="android_vendor_nxp-nfc_opensource_libnfc-nci" remote="LineageOS" revision="cm-14.1"/>
+  <project path="vendor/nxp-nfc/opensource/Nfc" name="android_vendor_nxp-nfc_opensource_Nfc" remote="LineageOS" revision="cm-14.1"/>
+</manifest>

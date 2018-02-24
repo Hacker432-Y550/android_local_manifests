@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
   <!-- Remove unnecessary Lineage stuff -->
   <remove-project name="device/generic/arm64"/>
   <remove-project name="device/generic/armv7-a-neon"/>
@@ -46,12 +47,10 @@
   <!-- Gemini needed repositories -->
   <remote name="Hacker432" fetch="https://github.com/Hacker432"/>
   <remote name="LineageOS" fetch="https://github.com/LineageOS"/>
-  <project path="kernel/xiaomi/msm8996" name="android_kernel_xiaomi_msm8996" remote="Hacker432" revision="lineage-15.0"/>
-  <project path="device/xiaomi/gemini" name="android_device_xiaomi_gemini" remote="Hacker432" revision="lineage-15.0" />
-  <project path="vendor/xiaomi/gemini" name="android_vendor_xiaomi_gemini" remote="Hacker432" revision="lineage-15.0" />
-  <project path="device/qcom/common" name="android_device_qcom_common" remote="LineageOS" revision="lineage-15.0"/>
-  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-15.0"/>
-  <project path="vendor/nxp-nfc/opensource/frameworks" name="android_vendor_nxp-nfc_opensource_frameworks" remote="LineageOS" revision="cm-14.1"/>
-  <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="android_vendor_nxp-nfc_opensource_libnfc-nci" remote="LineageOS" revision="cm-14.1"/>
-  <project path="vendor/nxp-nfc/opensource/Nfc" name="android_vendor_nxp-nfc_opensource_Nfc" remote="LineageOS" revision="cm-14.1"/>
+  <project path="kernel/xiaomi/msm8996" name="android_kernel_xiaomi_msm8996" remote="Hacker432" revision="lineage-15.1"/>
+  <project path="device/xiaomi/gemini" name="android_device_xiaomi_gemini" remote="Hacker432" revision="lineage-15.1" />
+  <project path="vendor/xiaomi/gemini" name="android_vendor_xiaomi_gemini" remote="Hacker432" revision="lineage-15.1" />
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="LineageOS" revision="lineage-15.1"/>
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-15.1"/>
+
 </manifest>
